@@ -50,18 +50,13 @@ export enum Rounding {
 }
 
 export const FACTORY_ADDRESS: { [chainId: number]: string } = {
-  [ChainId.KAI]: '0x64203f29f4d6a7e199b6f6afbe65f1fa914c7c4e',
   [ChainId.BSC_TESTNET]: '0xB0C6536fB1A4F76be4e1390b8328980499DdA146',
-  [ChainId.BSC]: '0xcc9944882df76302e06B1DC2dd62066e2e0Ef10F',
-  [ChainId.ONUS]: '0xf57578DD26422e80ab4051165Fb64DA1F25E740A',
-  [ChainId.ONUS_TESTNET]: '0xa0f52954e69c4f6c10091BdAD8e674179eD58149',
+  [ChainId.BSC]: '0x91FB3e62b34D10A6623ed7E2CEB523B0615B935F',
 }
 
 export const INIT_CODE_HASH: { [chainId: number]: string } = {
-  [ChainId.KAI]: '0x4829a2cb5b5cd2280b139796d23e1bea43f7caddf4203454607c5a9f3d9f95b6',
   [ChainId.BSC_TESTNET]: '0x2d7469ebcfbf32f8f4cf914ef1a54a6813d9541cbfa7d578e3a107003da7021a',
-  [ChainId.ONUS]: '0x8fd0691ee48e1b260e31c79ef938b4d7f6d2598391df758d51c03963db2e7c4e',
-  [ChainId.ONUS_TESTNET]: '0x1b28b2849bc5c4717a234547632d291b7d118f7da395fc8c2b7ced6eb8c41b9c',
+  [ChainId.BSC]: '0x2d7469ebcfbf32f8f4cf914ef1a54a6813d9541cbfa7d578e3a107003da7021a',
 }
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
