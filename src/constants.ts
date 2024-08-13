@@ -74,6 +74,7 @@ export const FEES_NUMERATOR = {
   [ChainId.ONUS]: JSBI.BigInt(9970),
   [ChainId.ONUS_TESTNET]: JSBI.BigInt(9970),
   [ChainId.BSC_TESTNET]: JSBI.BigInt(9970),
+  [ChainId.BSC]: JSBI.BigInt(9970),
 }
 export const FEES_DENOMINATOR = JSBI.BigInt(10000)
 

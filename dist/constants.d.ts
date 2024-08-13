@@ -61,6 +61,7 @@ export declare const FEES_NUMERATOR: {
     1975: JSBI;
     1945: JSBI;
     97: JSBI;
+    56: JSBI;
 };
 export declare const FEES_DENOMINATOR: JSBI;
 export declare enum SolidityType {
